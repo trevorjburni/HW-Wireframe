@@ -4,6 +4,8 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    padding: 0;
+    line-height: 150%;
 }
 
 header,
@@ -12,4 +14,21 @@ section,
 aside,
 footer {
     background-color: #ebebeb;
+}
+
+article {
+    color: #ebebeb;
+    background-color: #777;
+}
+
+h1,
+p {
+    color: #777;
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+section {
+    width: 495px;
+    float:left;
 }
