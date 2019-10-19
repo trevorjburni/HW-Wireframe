@@ -2,11 +2,8 @@ body {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     color: #777;
     background: #777;;
-    font-size: 18px;;
-}
-
-.container {
-    width: 75%;
+    font-size: 18px;
+    width: 960px;
     padding: 20px;
     margin: 0 auto;
 }
@@ -15,7 +12,9 @@ header,
 nav,
 footer {
     line-height: 80px;
+    text-align: center;
 }
+
 header,
 nav,
 section,
@@ -23,39 +22,79 @@ aside,
 footer {
     color: #777;
     background-color: #ebebeb;
-    text-align: center;
     margin-bottom: 10px;
 }
-
-#article {
-    color: #ebebeb;
-    background-color: #777;
-}
-
-
 
 section {
     width: 495px;
     float: left;
     color: #777;
     background-color: #ebebeb;
-    text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 63px;
+    text-align: center;
+}
+
+
+#article {
+    position: relative;
+    color: #ebebeb;
+    background-color: #777;
+    top: 38px;
+    width: 93%;
+    left: 3.5%;
+    line-height: 225px;
+    height: 200px;
+}
+
+#article_heading {
+    position: relative;
+    top: -100px;
+    height: 110px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+
+
+}
+#heading,
+#para {
+    color: #777;
+    background-color: #ebebeb;
+    padding: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+#heading {
+    position: absolute;
+    top: 41px ;
+    left: 28px;
+
+}
+
+#para {
+    position: absolute;
+    left: 28px;
+    top: 109px;
 }
 
 #aside {
     float: left;
-    margin-left: 20px;
-    text-align: center;
-    line-height: 250px;
-    margin-bottom: 10px;
+    margin-left: 12px;
+    margin-bottom: 20px;
     margin-top: 10px;
+    width: 453px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 278px;
 }
 
 #footer {
-    padding: 20px;
     clear: both;
-    margin-top: 20px;
+
 
 }
